@@ -1,18 +1,3 @@
-Title: Unify routes with the current application
-As a technical lead:
-I want: Routing in URL in the new application to be unified 
-So that: users can understand URL properly 
-Acceptance criteria: 
-Routing in URL in the new application must be unified using the same route and naming like in the previous application but without “edit” before tap naming. 
-The previous routing format: https://www.valcre.com/<accout>/<edit+tabname>
-The new routing format: https://www.valcre.com/<accout>/<tabname>
-
-Title: Add endpoints for table with filtered data
-As a user:
-I want to: see a list of properties got after filter applied
-So that: to sort and select properties
-
-As a user:
-I want to: get list of downloading options and links for it 
-So that: to save report/lists/etc in the needed format
-Acceptance criteria:  export options must be - CSV, JSON, Review Template
+As a FirmManager I want to open “Create View” Page, click on “Report Type” radio icon, so that I can set Report View viewcontext.
+As a user I want to see messages about reasons if validation fails, so that I can create report successfully.
+As a FirmManager I want to choose orientation format for PDF reports, so that a report to display accurately.
