@@ -1,0 +1,15 @@
+Validation: once user clicks outside of “Report View Name” textbox, validate displayname character count <= 256 (must be <= 255)
+
+Create View” is greyed out and not clickable unless:
+■ displayname is not null (must be "is null")
+■ viewcontext is not null (must be "is null")
+■ format is not null (must be "is null")
+
+Upon click, attempts to create and save Report View object
+■ Save Validation: upon save, validate that displayname must be unique within firm
+■ If Fails validation, then display red border around text box and prevent save (I would add "and display message under the text box: Displayname must be unique", text color is red)
+
+Save Validation: upon save, validate that displayname character count <=255
+■ If Fails validation, then display red border around text box and display message: (what context, position, color?)
+
+Report Builder Page: Landscape and Portrait image should be aligned and swapped
