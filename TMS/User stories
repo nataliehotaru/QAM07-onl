@@ -1,3 +1,6 @@
 As a FirmManager I want to open “Create View” Page, click on “Report Type” radio icon, so that I can set Report View viewcontext.
 As a user I want to see messages about reasons if validation fails, so that I can create report successfully.
 As a FirmManager I want to choose orientation format for PDF reports, so that a report to display accurately.
+
+
+Все user stories хорошие, отлично, замечаний нет.
