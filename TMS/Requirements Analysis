@@ -1,17 +1,25 @@
-Validation: once user clicks outside of “Report View Name” textbox, validate displayname character count <= 256 (must be <= 255)
+Validation: once user clicks outside of “Report View Name” textbox, validate displayname character count <= 256 (must be <= 255) - Верно.
 
 Radio Icon “Report Type” component with options for Firm Report / Client Report → sets Report View viewcontext (what options are supposed to be? what is the list?)
+- тут опции уже перечислены Firm Report / Client Report.
 
-Create View” is greyed out and not clickable unless:
+Create View” is greyed out and not clickable unless: 
 ■ displayname is not null (must be "is null")
 ■ viewcontext is not null (must be "is null")
 ■ format is not null (must be "is null")
+- В этой части всё было верно описано изначально, т.е. кновка серая и некликабельная до тех пор пока не displayname is not null. В списке приводятся состояния, когда кнопка серая и некливабельная.
 
 Upon click, attempts to create and save Report View object
 ■ Save Validation: upon save, validate that displayname must be unique within firm
 ■ If Fails validation, then display red border around text box and prevent save (I would add "and display message under the text box: Displayname must be unique", text color is red)
+-тут можно переговорить с бизнес-аналитиком, дизайнером, хочет ли клиент добвлять ещё какие-то пояснения, но это как уточнение, а не ошибка.
 
 Save Validation: upon save, validate that displayname character count <=255
 ■ If Fails validation, then display red border around text box and display message: (what content, position, text color?)
+-Верно, пропущен текст сообщение и его описание.
 
 Report Builder Page: Landscape and Portrait image should be aligned and swapped
+-тут нужно уточнять, возможно. так и задумывался дизайн, по описанию требований судить не можем.
+
+
+Попробуй найти ещё 4 несоответствия.
