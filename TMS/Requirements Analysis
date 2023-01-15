@@ -15,3 +15,8 @@ Save Validation: upon save, validate that displayname character count <=255
 ■ If Fails validation, then display red border around text box and display message: (what content, position, text color?)
 
 Report Builder Page: Landscape and Portrait image should be aligned and swapped
+
+There is no bullet for "Button: “Save report” before "Upon click, attempts to create and save Report View object". And I would delete "create" and leave only "attempt to save". 
+"Save" is related to the previous point but there is not described what happens after clicking “Create View” button in this point.Like "Upon successful creation by clicking Create view button, takes you to ???? (where?)
+"IF format = PDF, then orientation is null". - May be "IF format = PDF and role = FirmManager, then orientation is not null"
+Provbably in "Radio Icon “Orientation”" description isn't clear. Like "Else hide Orientation component". Is it only for PDF format or for other formats and roles also?
