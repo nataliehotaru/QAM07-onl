@@ -1,4 +1,4 @@
-Validation: once user clicks outside of “Report View Name” textbox, validate displayname character count <= 256 (must be <= 255)
+Validation: once user clicks outside of “Report View Name” textbox, validate displayname character count <= 256 (must be <= 255) - Right
 
 Radio Icon “Report Type” component with options for Firm Report / Client Report → sets Report View viewcontext (what options are supposed to be? what is the list?)
 
@@ -6,6 +6,7 @@ Create View” is greyed out and not clickable unless:
 ■ displayname is not null (must be "is null")
 ■ viewcontext is not null (must be "is null")
 ■ format is not null (must be "is null")
+Pay attention to "unless" word, requirements are right.
 
 Upon click, attempts to create and save Report View object
 ■ Save Validation: upon save, validate that displayname must be unique within firm
@@ -16,7 +17,8 @@ Save Validation: upon save, validate that displayname character count <=255
 
 Report Builder Page: Landscape and Portrait image should be aligned and swapped
 
-There is no bullet for "Button: “Save report” before "Upon click, attempts to create and save Report View object". And I would delete "create" and leave only "attempt to save". 
-"Save" is related to the previous point but there is not described what happens after clicking “Create View” button in this point.Like "Upon successful creation by clicking Create view button, takes you to ???? (where?)
-"IF format = PDF, then orientation is null". - May be "IF format = PDF and role = FirmManager, then orientation is not null"
-Provbably in "Radio Icon “Orientation”" description isn't clear. Like "Else hide Orientation component". Is it only for PDF format or for other formats and roles also?
+There is no bullet for "Button: “Save report” before "Upon click, attempts to create and save Report View object". And I would delete "create" and leave only "attempt to save". - All good here, no need to change requirements.
+"Save" is related to the previous point but there is not described what happens after clicking “Create View” button in this point.Like "Upon successful creation by clicking Create view button, takes you to ???? (where?) - Upon successful save by clicking Save button, takes you to Report
+Builder Page.
+"IF format = PDF, then orientation is null". - May be "IF format = PDF and role = FirmManager, then orientation is not null" - You are close to the right answer, no need for a lot of changes, just a small word.
+Provbably in "Radio Icon “Orientation”" description isn't clear. Like "Else hide Orientation component". Is it only for PDF format or for other formats and roles also? - All good here, no need to change requirements.
